@@ -23,7 +23,7 @@ tests['bigscreen'] = function() {
         dim.height = window.innerHeight;
 
     }
-    /* Detect height in landscape mode */
+    /* Detect height both Portrait/landscape mode */
     height = Math.min(dim.width,dim.height);
     return height > 400;
 };
