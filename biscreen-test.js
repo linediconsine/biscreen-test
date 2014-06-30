@@ -1,6 +1,7 @@
 /**
- * Created by Marco Amato on 30/06/14.
+ * Created by ninja on 30/06/14.
  */
+
 tests['bigscreen'] = function() {
 
     var dim = {
@@ -22,6 +23,8 @@ tests['bigscreen'] = function() {
         dim.height = window.innerHeight;
 
     }
-    return dim.width > 400;
+    /* Detect height in landscape mode */
+    height = Math.min(dim.width,dim.height);
+    return height > 400;
 };
 

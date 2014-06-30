@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb5a3f9-39cb-4fea-8c8e-ce3a9941fd48" name="Default" comment="" />
+    <list default="true" id="cfb5a3f9-39cb-4fea-8c8e-ce3a9941fd48" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biscreen-test.js" afterPath="$PROJECT_DIR$/biscreen-test.js" />
+    </list>
     <ignored path="biscreen-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="biscreen-test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/biscreen-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2549575" vertical-offset="0" max-vertical-offset="706">
+            <state line="26" column="44" selection-start="750" selection-end="750" vertical-scroll-proportion="0.5524079" vertical-offset="0" max-vertical-offset="706">
               <folding />
             </state>
           </provider>
@@ -197,7 +199,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/biscreen-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2549575" vertical-offset="0" max-vertical-offset="706">
+        <state line="26" column="44" selection-start="750" selection-end="750" vertical-scroll-proportion="0.5524079" vertical-offset="0" max-vertical-offset="706">
           <folding />
         </state>
       </provider>
