@@ -2,8 +2,7 @@
  * Created by ninja on 30/06/14.
  */
 
-tests['bigscreen'] = function() {
-
+Modernizr.addTest('bigscreen', function () {
     var dim = {
         width: 0, height: 0
     };
@@ -26,5 +25,6 @@ tests['bigscreen'] = function() {
     /* Detect height both Portrait/landscape mode */
     height = Math.min(dim.width,dim.height);
     return height > 400;
-};
+});
+
 
