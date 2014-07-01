@@ -23,8 +23,8 @@ Modernizr.addTest('bigscreen', function () {
 
     }
     /* Detect height both Portrait/landscape mode */
-    height = Math.min(dim.width,dim.height);
-    return height > 400;
+    little = Math.min(dim.width,dim.height);
+    return little > 400;
 });
 
 

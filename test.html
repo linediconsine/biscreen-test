@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <script>
+
+        $( document ).ready(function() {
+            var dim = {
+                width: 0, height: 0
+            };
+
+            if (document.body && document.body.offsetWidth) {
+                dim.width = document.body.offsetWidth;
+                dim.height = document.body.offsetHeight;
+
+            }
+            if (document.compatMode == 'CSS1Compat' && document.documentElement && document.documentElement.offsetWidth) {
+                dim.width = document.documentElement.offsetWidth;
+                dim.height = document.documentElement.offsetHeight;
+
+            }
+            if (window.innerWidth && window.innerHeight) {
+                dim.width = window.innerWidth;
+                dim.height = window.innerHeight;
+
+            }
+            /* Detect height both Portrait/landscape mode */
+
+            $('#test-value').html(dim.width + 'px x ' + dim.height + 'px');
+
+            little = Math.min(dim.width,dim.height);
+
+            if(little > 400){
+                $('#test-results').html('BIG SCREEN');
+            }else{
+                $('#test-results').html('NOT A BIG SCREEN');
+            }
+
+        });
+    </script>
     <title></title>
 </head>
 <body>
-
+    <div style="padding:10%;text-align: center;font-family: 'Dosis', sans-serif;">
+        <h1  id="test-results" ></h1>
+        <h2  id="test-value" style="color: #979"></h2>
+    </div>
 </body>
 </html>
