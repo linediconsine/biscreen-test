@@ -1,4 +1,4 @@
-big screen - test
+BIG SCREEN - test
 =============
 
 bigscreen test for modernizr
