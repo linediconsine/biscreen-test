@@ -1,7 +1,9 @@
 BIG SCREEN - test
 =============
 
-bigscreen test for modernizr
+This is an old funny experiment.
+I was fighting to make fit my UI to across multiple devices with important screen differences.
+I create this rule that can be integrated with Modernizr for detect big screen
 
 
 My first test :
